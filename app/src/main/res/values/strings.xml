@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Demo Navigation Drawer</string>
+
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+
+    <string name="nav_header_title">demo</string>
+    <string name="nav_header_subtitle">navigation drawer</string>
+    <string name="nav_header_desc">navigation header</string>
+
+    <string name="action_settings">settings</string>
+
+    <string name="hello_message">Hello from demo navigation drawer!</string>
+
+    <string name="app_title">demo navigation drawer</string>
+    <string name="import_camera">import</string>
+    <string name="gallery">gallery</string>
+    <string name="slideshow">slideshow</string>
+    <string name="tools">tools</string>
+
+    <string name="communicate">communicate</string>
+    <string name="share">share</string>
+    <string name="send">send</string>
+
+    <string name="chose_camera">you have chosen camera import</string>
+    <string name="chose_gallery">you have chosen the gallery</string>
+    <string name="chose_slideshow">you have chosen the slideshow</string>
+    <string name="chose_tools">you have chosen tools</string>
+    <string name="chose_share">you have chosen share</string>
+    <string name="chose_send">you have chosen send</string>
+    <string name="app_description">sample description</string>
+</resources>
