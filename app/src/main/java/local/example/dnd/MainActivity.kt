@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(),
             this, drawerLayout, toolbar, R.string.navigation_drawer_open,
             R.string.navigation_drawer_close
         )
-        drawerLayout?.addDrawerListener(actionBarDrawerToggle)
+        drawerLayout.addDrawerListener(actionBarDrawerToggle)
         actionBarDrawerToggle.syncState()
 
         val navigationView = findViewById<View>(R.id.navigation_view) as NavigationView
@@ -60,12 +60,10 @@ class MainActivity : AppCompatActivity(),
 
     override fun onBackPressed() {
         val drawerLayout = findViewById<View>(R.id.drawer_layout) as DrawerLayout
-        if (drawerLayout != null) {
-            if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
-                drawerLayout.closeDrawer(GravityCompat.START)
-            } else {
-                super.onBackPressed()
-            }
+        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            drawerLayout.closeDrawer(GravityCompat.START)
+        } else {
+            super.onBackPressed()
         }
     }
 
